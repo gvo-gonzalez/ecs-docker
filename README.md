@@ -29,3 +29,5 @@ python3 library:
 - tornado,
 - boto,
 - boto3
+
+*** The folder env.files contains a template for laravel .env file that is attached while image is build, so you would complete this with your access information to be used  on AWS RDS
