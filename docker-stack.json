@@ -1,0 +1,47 @@
+{
+    "projectName": "singlesrv",
+    "appLayer": [
+        {
+            "framework": "laravel",
+            "version": "7.2",
+            "name": "single-proj",
+            "repoName": "https://github.com/gvo-gonzalez/laravel-simpleblog.git",
+            "cloneInto": "phpapp",
+            "domainToUse": "you-env-domain.devel",
+            "hostname": "laravel-local",
+            "repoUserName": "",
+            "repoUserPass": "",
+            "awsEcrRepository": "XXXXXXXXXXXXX.dkr.ecr.us-east-1.amazonaws.com/ecsstack-ecr-repo",
+            "testContainerPort": "9000",
+            "nginxSidecar": "yes" 
+        },
+        {
+            "framework": "nodejs",
+            "version": "",
+            "name": "nodejs-proj",
+            "repoName": "https://github.com/gvo-gonzalez/docker-nodejs.git",
+            "cloneInto": "nodejsapp",
+            "domainToUse": "you-env-domain.devel",
+            "hostname": "nodejs-local",
+            "repoUserName": "",
+            "repoUserPass": "",
+            "awsEcrRepository": "XXXXXXXXXXXXX.dkr.ecr.us-east-1.amazonaws.com/ecsstack-ecr-repo",
+            "testContainerPort": "3000",
+            "nginxSidecar": "yes"
+        },
+        {
+            "framework": "reactjs",
+            "version": "",
+            "name": "reactjs-proj",
+            "repoName": "https://github.com/gvo-gonzalez/react-project.git",
+            "cloneInto": "reactjsapp",
+            "domainToUse": "you-env-domain.devel",
+            "hostname": "reactjs-local",
+            "repoUserName": "",
+            "repoUserPass": "",
+            "awsEcrRepository": "XXXXXXXXXXXXX.dkr.ecr.us-east-1.amazonaws.com/ecsstack-ecr-repo",
+            "testContainerPort": "3000",
+            "nginxSidecar": "yes"
+        }
+    ]
+}

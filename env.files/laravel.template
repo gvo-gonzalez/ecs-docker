@@ -1,0 +1,11 @@
+APP_ENV=local
+APP_DEBUG=true
+APP_KEY=
+
+DB_HOST=your_database_endpoint_here
+DB_DATABASE=laravel_backend
+DB_USERNAME=root
+DB_PASSWORD=s3Cur3P4s5_wd0
+
+CACHE_DRIVER=file
+SESSION_DRIVER=file
