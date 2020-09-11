@@ -1,7 +1,0 @@
-FROM nginx:stable-alpine
-
-RUN mkdir -p /var/www/public
-
-COPY singlesrv/phpapp/public /var/www/public
-
-COPY nginx/phpapp.conf /etc/nginx/conf.d/default.conf
